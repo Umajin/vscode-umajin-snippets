@@ -1,0 +1,1146 @@
+{
+  "addGlassShelfItem": {
+    "body": ["addGlassShelfItem('${1:glass_shelf}', '${2:filename}')", ""],
+    "description": "addGlassShelfItem",
+    "prefix": "addGlassShelfItem"
+  },
+  "addMapMarker": {
+    "body": [
+      "addMapMarker(${1:map_view}, '${2:name}', '${3:address}', '${4:zoom_to_marker}', '${5:show_info}')",
+      ""
+    ],
+    "description": "addMapMarker",
+    "prefix": "addMapMarker"
+  },
+  "addMapMarkerLatLong": {
+    "body": [
+      "addMapMarkerLatLong(${1:map_view}, '${2:name}', '${3:lat}', '${4:long}', '${5:title}', '${6:desc}', '${7:img}', '${8:zoom_to_marker}', ${9:show_info})",
+      ""
+    ],
+    "description": "addMapMarkerLatLong",
+    "prefix": "addMapMarkerLatLong"
+  },
+  "addMapMarkerWithInfo": {
+    "body": [
+      "addMapMarkerWithInfo(${1:map_view}, '${2:name}', '${3:address}', '${4:title}', '${5:desc}', '${6:img}', '${7:zoom_to_marker}', '${8:show_info}')",
+      ""
+    ],
+    "description": "addMapMarkerWithInfo",
+    "prefix": "addMapMarkerWithInfo"
+  },
+  "addMapRoute": {
+    "body": [
+      "addMapRoute(${1:map_view}, '${2:start_address}', '${3:end_address}', '${4:zoom_to_marker}', '${5:route_type}', '${6:show_info}')",
+      ""
+    ],
+    "description": "addMapRoute",
+    "prefix": "addMapRoute"
+  },
+  "addMapRouteLatLong": {
+    "body": [
+      "addMapRouteLatLong(${1:map_view}, '${2:start_latitude}', '${3:start_longitude}', '${4:end_latitude}', '${5:end_longitude}', '${6:route_type}', '${7:line_color}', '${8:line_weight}')",
+      ""
+    ],
+    "description": "addMapRouteLatLong",
+    "prefix": "addMapRouteLatLong"
+  },
+  "apeConnect": {
+    "body": [
+      "apeConnect('${1:channel}', '${2:connect_function}', '${3:data_function}', '${4:error_function}')",
+      ""
+    ],
+    "description": "apeConnect",
+    "prefix": "apeConnect"
+  },
+  "apeDisconnect": {
+    "body": ["apeDisconnect()", ""],
+    "description": "apeDisconnect",
+    "prefix": "apeDisconnect"
+  },
+  "apeGetPubid": {
+    "body": ["apeGetPubid()", ""],
+    "description": "apeGetPubid",
+    "prefix": "apeGetPubid"
+  },
+  "apeIsConnected": {
+    "body": ["apeIsConnected()", ""],
+    "description": "apeIsConnected",
+    "prefix": "apeIsConnected"
+  },
+  "apeSend": {
+    "body": ["apeSend('${1:data}')", ""],
+    "description": "apeSend",
+    "prefix": "apeSend"
+  },
+  "base64Decode": {
+    "body": ["base64Decode('${1:s}')", ""],
+    "description": "base64Decode",
+    "prefix": "base64Decode"
+  },
+  "base64Encode": {
+    "body": ["base64Encode('${1:s}')", ""],
+    "description": "base64Encode",
+    "prefix": "base64Encode"
+  },
+  "bindEvent": {
+    "body": ["bindEvent(${1:obj}, '${2:event}', '${3:callback}')", ""],
+    "description": "bindEvent",
+    "prefix": "bindEvent"
+  },
+  "browseFile": {
+    "body": ["browseFile('${1:callback}', '${2:extensions}')", ""],
+    "description": "browseFile",
+    "prefix": "browseFile"
+  },
+  "browseImage": {
+    "body": ["browseImage('${1:callback}')", ""],
+    "description": "browseImage",
+    "prefix": "browseImage"
+  },
+  "cDecode": {
+    "body": ["cDecode('${1:s}')", ""],
+    "description": "cDecode",
+    "prefix": "cDecode"
+  },
+  "cEncode": {
+    "body": ["cEncode('${1:s}')", ""],
+    "description": "cEncode",
+    "prefix": "cEncode"
+  },
+  "cacheDbBeginTransaction": {
+    "body": ["cacheDbBeginTransaction('${1:filename}')", ""],
+    "description": "cacheDbBeginTransaction",
+    "prefix": "cacheDbBeginTransaction"
+  },
+  "cacheDbClose": {
+    "body": ["cacheDbClose('${1:filename}')", ""],
+    "description": "cacheDbClose",
+    "prefix": "cacheDbClose"
+  },
+  "cacheDbCommitTransaction": {
+    "body": ["cacheDbCommitTransaction('${1:filename}')", ""],
+    "description": "cacheDbCommitTransaction",
+    "prefix": "cacheDbCommitTransaction"
+  },
+  "cacheDbExec": {
+    "body": ["cacheDbExec('${1:filename}', '${2:sql}')", ""],
+    "description": "cacheDbExec",
+    "prefix": "cacheDbExec"
+  },
+  "cacheDbGetLastErrorMessage": {
+    "body": ["cacheDbGetLastErrorMessage('${1:filename}')", ""],
+    "description": "cacheDbGetLastErrorMessage",
+    "prefix": "cacheDbGetLastErrorMessage"
+  },
+  "cacheDbGetLastSuccess": {
+    "body": ["cacheDbGetLastSuccess('${1:filename}')", ""],
+    "description": "cacheDbGetLastSuccess",
+    "prefix": "cacheDbGetLastSuccess"
+  },
+  "cacheDbOpen": {
+    "body": ["cacheDbOpen('${1:filename}')", ""],
+    "description": "cacheDbOpen",
+    "prefix": "cacheDbOpen"
+  },
+  "cacheDbSelect": {
+    "body": ["cacheDbSelect('${1:filename}', '${2:sql}')", ""],
+    "description": "cacheDbSelect",
+    "prefix": "cacheDbSelect"
+  },
+  "callAction": {
+    "body": ["callAction('${1:name}')", ""],
+    "description": "callAction",
+    "prefix": "callAction"
+  },
+  "cameraCapture": {
+    "body": ["cameraCapture('${1:return_function}')", ""],
+    "description": "cameraCapture",
+    "prefix": "cameraCapture"
+  },
+  "cameraCodeScan": {
+    "body": [
+      "cameraCodeScan('${1:return_function}', '${2:message}', '${3:format}')",
+      ""
+    ],
+    "description": "cameraCodeScan",
+    "prefix": "cameraCodeScan"
+  },
+  "cancelAllDelayedCalls": {
+    "body": ["cancelAllDelayedCalls()", ""],
+    "description": "cancelAllDelayedCalls",
+    "prefix": "cancelAllDelayedCalls"
+  },
+  "cancelAllNotifications": {
+    "body": ["cancelAllNotifications()", ""],
+    "description": "cancelAllNotifications",
+    "prefix": "cancelAllNotifications"
+  },
+  "cancelDelayedCalls": {
+    "body": ["cancelDelayedCalls('${1:delayed_function}')", ""],
+    "description": "cancelDelayedCalls",
+    "prefix": "cancelDelayedCalls"
+  },
+  "cancelGps": {
+    "body": ["cancelGps('${1:update_function}')", ""],
+    "description": "cancelGps",
+    "prefix": "cancelGps"
+  },
+  "cancelScheduledNotification": {
+    "body": ["cancelScheduledNotification('${1:id}')", ""],
+    "description": "cancelScheduledNotification",
+    "prefix": "cancelScheduledNotification"
+  },
+  "checkFormValidation": {
+    "body": ["checkFormValidation('${1:form}')", ""],
+    "description": "checkFormValidation",
+    "prefix": "checkFormValidation"
+  },
+  "componentEvent": {
+    "body": [
+      "componentEvent(${1:component}, '${2:eventid}', '${3:mydata}')",
+      ""
+    ],
+    "description": "componentEvent",
+    "prefix": "componentEvent"
+  },
+  "createComponent": {
+    "body": [
+      "createComponent(${1:obj}, '${2:className}', ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2})",
+      ""
+    ],
+    "description": "createComponent",
+    "prefix": "createComponent"
+  },
+  "createEditableAction": {
+    "body": [
+      "createEditableAction(${1:obj}, '${2:eventID}', '${3:actionString}')",
+      ""
+    ],
+    "description": "createEditableAction",
+    "prefix": "createEditableAction"
+  },
+  "createEditableComponent": {
+    "body": [
+      "createEditableComponent(${1:obj}, '${2:className}', ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2})",
+      ""
+    ],
+    "description": "createEditableComponent",
+    "prefix": "createEditableComponent"
+  },
+  "createEditablePage": {
+    "body": ["createEditablePage()", ""],
+    "description": "createEditablePage",
+    "prefix": "createEditablePage"
+  },
+  "cropImage": {
+    "body": [
+      "cropImage('${1:local_filepath_in}', '${2:temp_filename_out}', '${3:quality_ratio}', '${4:src_x}', '${5:src_y}', '${6:src_width}', '${7:src_height}', '${8:des_maxwidth}', '${9:des_maxheight}')",
+      ""
+    ],
+    "description": "cropImage",
+    "prefix": "cropImage"
+  },
+  "decode": {
+    "body": ["decode('${1:string}', '${2:mode}')", ""],
+    "description": "decode",
+    "prefix": "decode"
+  },
+  "delayCall": {
+    "body": ["delayCall('${1:delayed_function}', '${2:delay}')", ""],
+    "description": "delayCall",
+    "prefix": "delayCall"
+  },
+  "deleteComponent": {
+    "body": ["deleteComponent(${1:objbase}, ${2:objcomp})", ""],
+    "description": "deleteComponent",
+    "prefix": "deleteComponent"
+  },
+  "deleteCookie": {
+    "body": ["deleteCookie('${1:key}')", ""],
+    "description": "deleteCookie",
+    "prefix": "deleteCookie"
+  },
+  "discoverDevices": {
+    "body": [
+      "discoverDevices('${1:onDeviceDiscoveredCallback}', '${2:onDiscoverDevicesError}')",
+      ""
+    ],
+    "description": "discoverDevices",
+    "prefix": "discoverDevices"
+  },
+  "discoverServicesBySdp": {
+    "body": [
+      "discoverServicesBySdp('${1:deviceName}', '${2:servicesFoundCallback}', '${3:errorCallback}')",
+      ""
+    ],
+    "description": "discoverServicesBySdp",
+    "prefix": "discoverServicesBySdp"
+  },
+  "disperseFormData": {
+    "body": ["disperseFormData('${1:form}', '${2:data}')", ""],
+    "description": "disperseFormData",
+    "prefix": "disperseFormData"
+  },
+  "enableBluetooth": {
+    "body": [
+      "enableBluetooth('${1:onEnabledCallback}', '${2:onDisabledCallback}', '${3:onBluetoothError}')",
+      ""
+    ],
+    "description": "enableBluetooth",
+    "prefix": "enableBluetooth"
+  },
+  "encode": {
+    "body": ["encode('${1:string}', '${2:mode}')", ""],
+    "description": "encode",
+    "prefix": "encode"
+  },
+  "fileExists": {
+    "body": ["fileExists('${1:path}')", ""],
+    "description": "fileExists",
+    "prefix": "fileExists"
+  },
+  "findComponent": {
+    "body": [
+      "findComponent('${1:pagename}', '${2:componenttype}', '${3:componentname}')",
+      ""
+    ],
+    "description": "findComponent",
+    "prefix": "findComponent"
+  },
+  "findComponentInDialog": {
+    "body": [
+      "findComponentInDialog('${1:dialog_name}', '${2:component_type}', '${3:component_name}')",
+      ""
+    ],
+    "description": "findComponentInDialog",
+    "prefix": "findComponentInDialog"
+  },
+  "findComponentInForeground": {
+    "body": [
+      "findComponentInForeground('${1:foreground_name}', '${2:component_type}', '${3:component_name}')",
+      ""
+    ],
+    "description": "findComponentInForeground",
+    "prefix": "findComponentInForeground"
+  },
+  "findPage": {
+    "body": ["findPage('${1:pagename}')", ""],
+    "description": "findPage",
+    "prefix": "findPage"
+  },
+  "gatherFormData": {
+    "body": ["gatherFormData('${1:form}')", ""],
+    "description": "gatherFormData",
+    "prefix": "gatherFormData"
+  },
+  "getBluetoothCharacteristic": {
+    "body": [
+      "getBluetoothCharacteristic('${1:serviceId}', '${2:characteristicId}', '${3:callbackMethod}')",
+      ""
+    ],
+    "description": "getBluetoothCharacteristic",
+    "prefix": "getBluetoothCharacteristic"
+  },
+  "getComponentChild": {
+    "body": ["getComponentChild(${1:obj}, '${2:index}')", ""],
+    "description": "getComponentChild",
+    "prefix": "getComponentChild"
+  },
+  "getComponentChildCount": {
+    "body": ["getComponentChildCount(${1:obj})", ""],
+    "description": "getComponentChildCount",
+    "prefix": "getComponentChildCount"
+  },
+  "getComponentParent": {
+    "body": ["getComponentParent(${1:obj})", ""],
+    "description": "getComponentParent",
+    "prefix": "getComponentParent"
+  },
+  "getCookie": {
+    "body": ["getCookie('${1:key}')", ""],
+    "description": "getCookie",
+    "prefix": "getCookie"
+  },
+  "getData": {
+    "body": ["getData(${1:obj}, '${2:key}')", ""],
+    "description": "getData",
+    "prefix": "getData"
+  },
+  "getDataBulk": {
+    "body": ["getDataBulk(${1:obj})", ""],
+    "description": "getDataBulk",
+    "prefix": "getDataBulk"
+  },
+  "getFeed": {
+    "body": [
+      "getFeed('${1:id}', '${2:ttl}', '${3:success_function}', '${4:error_function}')",
+      ""
+    ],
+    "description": "getFeed",
+    "prefix": "getFeed"
+  },
+  "getFile": {
+    "body": [
+      "getFile('${1:url}', '${2:ttl}', '${3:success_function}', '${4:error_function}')",
+      ""
+    ],
+    "description": "getFile",
+    "prefix": "getFile"
+  },
+  "getFilesInFolder": {
+    "body": ["getFilesInFolder('${1:path}')", ""],
+    "description": "getFilesInFolder",
+    "prefix": "getFilesInFolder"
+  },
+  "getForeground": {
+    "body": ["getForeground('${1:page_name}')", ""],
+    "description": "getForeground",
+    "prefix": "getForeground"
+  },
+  "getGlobal": {
+    "body": ["getGlobal('${1:property}')", ""],
+    "description": "getGlobal",
+    "prefix": "getGlobal"
+  },
+  "getGlobalVar": {
+    "body": ["getGlobalVar('${1:key}')", ""],
+    "description": "getGlobalVar",
+    "prefix": "getGlobalVar"
+  },
+  "getGps": {
+    "body": [
+      "getGps('${1:update_function}', '${2:error_function}', '${3:accuracy_metres}', '${4:timeout_ms}')",
+      ""
+    ],
+    "description": "getGps",
+    "prefix": "getGps"
+  },
+  "getImageSize": {
+    "body": [
+      "getImageSize('${1:local_filepath}', '${2:success_function}')",
+      ""
+    ],
+    "description": "getImageSize",
+    "prefix": "getImageSize"
+  },
+  "getName": {
+    "body": ["getName(${1:obj})", ""],
+    "description": "getName",
+    "prefix": "getName"
+  },
+  "getPage": {
+    "body": ["getPage('${1:index}')", ""],
+    "description": "getPage",
+    "prefix": "getPage"
+  },
+  "getPageCount": {
+    "body": ["getPageCount()", ""],
+    "description": "getPageCount",
+    "prefix": "getPageCount"
+  },
+  "getPairableDevices": {
+    "body": ["getPairableDevices()", ""],
+    "description": "getPairableDevices",
+    "prefix": "getPairableDevices"
+  },
+  "getPairedDevices": {
+    "body": ["getPairedDevices()", ""],
+    "description": "getPairedDevices",
+    "prefix": "getPairedDevices"
+  },
+  "getProperty": {
+    "body": ["getProperty(${1:obj}, '${2:property}')", ""],
+    "description": "getProperty",
+    "prefix": "getProperty"
+  },
+  "getTextStyleList": {
+    "body": ["getTextStyleList()", ""],
+    "description": "getTextStyleList",
+    "prefix": "getTextStyleList"
+  },
+  "getType": {
+    "body": ["getType(${1:obj})", ""],
+    "description": "getType",
+    "prefix": "getType"
+  },
+  "hasCookie": {
+    "body": ["hasCookie('${1:key}')", ""],
+    "description": "hasCookie",
+    "prefix": "hasCookie"
+  },
+  "hideComboBoxAutocompletePopup": {
+    "body": ["hideComboBoxAutocompletePopup()", ""],
+    "description": "hideComboBoxAutocompletePopup",
+    "prefix": "hideComboBoxAutocompletePopup"
+  },
+  "hideDialog": {
+    "body": ["hideDialog('${1:dialog_name}')", ""],
+    "description": "hideDialog",
+    "prefix": "hideDialog"
+  },
+  "hideNativeOverlays": {
+    "body": ["hideNativeOverlays()", ""],
+    "description": "hideNativeOverlays",
+    "prefix": "hideNativeOverlays"
+  },
+  "hideSpinner": {
+    "body": ["hideSpinner()", ""],
+    "description": "hideSpinner",
+    "prefix": "hideSpinner"
+  },
+  "hmacSha1": {
+    "body": ["hmacSha1('${1:message}', '${2:passphrase}')", ""],
+    "description": "hmacSha1",
+    "prefix": "hmacSha1"
+  },
+  "httpAddFormData": {
+    "body": [
+      "httpAddFormData('${1:ref}', '${2:field_name}', '${3:value}')",
+      ""
+    ],
+    "description": "httpAddFormData",
+    "prefix": "httpAddFormData"
+  },
+  "httpAddFormFile": {
+    "body": [
+      "httpAddFormFile('${1:ref}', '${2:field_name}', '${3:local_file_path}')",
+      ""
+    ],
+    "description": "httpAddFormFile",
+    "prefix": "httpAddFormFile"
+  },
+  "httpDeleteFromRef": {
+    "body": [
+      "httpDeleteFromRef('${1:ref}', '${2:url}', '${3:headers}', '${4:success_function}', '${5:error_function}', '${6:cookie_jar}')",
+      ""
+    ],
+    "description": "httpDeleteFromRef",
+    "prefix": "httpDeleteFromRef"
+  },
+  "httpDeleteHeaders": {
+    "body": [
+      "httpDeleteHeaders('${1:url}', '${2:headers}', '${3:success_function}', '${4:error_function}', '${5:cookie_jar}')",
+      ""
+    ],
+    "description": "httpDeleteHeaders",
+    "prefix": "httpDeleteHeaders"
+  },
+  "httpGet": {
+    "body": [
+      "httpGet('${1:url}', '${2:success_function}', '${3:error_function}', '${4:cookie_jar}')",
+      "function ${2:success_function}() {",
+      "\t${0}",
+      "}",
+      "",
+      "function ${3:error_function}() {",
+      "\t${0}",
+      "}",
+      ""
+    ],
+    "description": "httpGet",
+    "prefix": "httpGet"
+  },
+  "httpGetFromRef": {
+    "body": [
+      "httpGetFromRef('${1:ref}', '${2:url}', '${3:headers}', '${4:success_function}', '${5:error_function}', '${6:cookie_jar}')",
+      ""
+    ],
+    "description": "httpGetFromRef",
+    "prefix": "httpGetFromRef"
+  },
+  "httpGetHeaders": {
+    "body": [
+      "httpGetHeaders('${1:url}', '${2:headers}', '${3:success_function}', '${4:error_function}', '${5:cookie_jar}')",
+      ""
+    ],
+    "description": "httpGetHeaders",
+    "prefix": "httpGetHeaders"
+  },
+  "httpNew": {
+    "body": ["httpNew()", ""],
+    "description": "httpNew",
+    "prefix": "httpNew"
+  },
+  "httpPost": {
+    "body": [
+      "httpPost('${1:url}', '${2:data}', '${3:success_function}', '${4:error_function}', '${5:cookie_jar}')",
+      ""
+    ],
+    "description": "httpPost",
+    "prefix": "httpPost"
+  },
+  "httpPostFromRef": {
+    "body": [
+      "httpPostFromRef('${1:ref}', '${2:url}', '${3:data}', '${4:headers}', '${5:success_function}', '${6:error_function}', '${7:cookie_jar}')",
+      ""
+    ],
+    "description": "httpPostFromRef",
+    "prefix": "httpPostFromRef"
+  },
+  "httpPostHeaders": {
+    "body": [
+      "httpPostHeaders('${1:url}', '${2:data}', '${3:headers}', '${4:success_function}', '${5:error_function}', '${6:cookie_jar}')",
+      ""
+    ],
+    "description": "httpPostHeaders",
+    "prefix": "httpPostHeaders"
+  },
+  "httpPutFromRef": {
+    "body": [
+      "httpPutFromRef('${1:ref}', '${2:url}', '${3:data}', '${4:headers}', '${5:success_function}', '${6:error_function}', '${7:cookie_jar}')",
+      ""
+    ],
+    "description": "httpPutFromRef",
+    "prefix": "httpPutFromRef"
+  },
+  "httpPutHeaders": {
+    "body": [
+      "httpPutHeaders('${1:url}', '${2:data}', '${3:headers}', '${4:success_function}', '${5:error_function}', '${6:cookie_jar}')",
+      ""
+    ],
+    "description": "httpPutHeaders",
+    "prefix": "httpPutHeaders"
+  },
+  "httpS3Upload": {
+    "body": [
+      "httpS3Upload('${1:bucket}', '${2:s3_file_path}', '${3:local_filepath}', '${4:s3_key}', '${5:s3_secret}', '${6:success_function}', '${7:error_function}')",
+      ""
+    ],
+    "description": "httpS3Upload",
+    "prefix": "httpS3Upload"
+  },
+  "isDialogVisible": {
+    "body": ["isDialogVisible('${1:dialog_name}')", ""],
+    "description": "isDialogVisible",
+    "prefix": "isDialogVisible"
+  },
+  "isValid": {
+    "body": ["isValid('${1:value}')", ""],
+    "description": "isValid",
+    "prefix": "isValid"
+  },
+  "md5": {
+    "body": ["md5('${1:input}')", ""],
+    "description": "md5",
+    "prefix": "md5"
+  },
+  "notifyAtDateTime": {
+    "body": [
+      "notifyAtDateTime('${1:title}', '${2:body}', '${3:id}', '${4:time_t}')",
+      ""
+    ],
+    "description": "notifyAtDateTime",
+    "prefix": "notifyAtDateTime"
+  },
+  "notifyLater": {
+    "body": [
+      "notifyLater('${1:title}', '${2:body}', '${3:id}', '${4:offsetSeconds}')",
+      ""
+    ],
+    "description": "notifyLater",
+    "prefix": "notifyLater"
+  },
+  "openSocket": {
+    "body": [
+      "openSocket('${1:deviceName}', '${2:serviceUuid}', '${3:openSuccessCallback}', '${4:socketErrorCallback}', '${5:readCallback}')",
+      ""
+    ],
+    "description": "openSocket",
+    "prefix": "openSocket"
+  },
+  "pairToDevice": {
+    "body": [
+      "pairToDevice('${1:deviceName}', '${2:onConnectedCallback}', '${3:onPairErrorCallback}', '${4:onUnpairedCallback}', '${5:servicesFoundCallback}')",
+      ""
+    ],
+    "description": "pairToDevice",
+    "prefix": "pairToDevice"
+  },
+  "playFullscreenVideo": {
+    "body": [
+      "playFullscreenVideo('${1:filename}', '${2:error_callback}', '${3:complete_callback}')",
+      ""
+    ],
+    "description": "playFullscreenVideo",
+    "prefix": "playFullscreenVideo"
+  },
+  "pollGps": {
+    "body": [
+      "pollGps('${1:update_function}', '${2:error_function}', '${3:accuracy_metres}', '${4:poll_interval}')",
+      ""
+    ],
+    "description": "pollGps",
+    "prefix": "pollGps"
+  },
+  "positionComponent": {
+    "body": [
+      "positionComponent(${1:obj}, ${2:x1}, ${3:y1}, ${4:x2}, ${5:y2})",
+      ""
+    ],
+    "description": "positionComponent",
+    "prefix": "positionComponent"
+  },
+  "positionComponentControl": {
+    "body": [
+      "positionComponentControl(${1:obj}, '${2:left}', '${3:left_mm}', '${4:top}', '${5:top_mm}', '${6:width}', '${7:width_mm}', '${8:height}', '${9:height_mm}', '${10:right}', '${11:right_mm}', '${12:bottom}', '${13:bottom_mm}')",
+      ""
+    ],
+    "description": "positionComponentControl",
+    "prefix": "positionComponentControl"
+  },
+  "positionHorizontal": {
+    "body": [
+      "positionHorizontal(${1:obj}, '${2:left_lock}', '${3:left_size}', '${4:width_lock}', '${5:width_size}', '${6:right_lock}', '${7:right_size}')",
+      ""
+    ],
+    "description": "positionHorizontal",
+    "prefix": "positionHorizontal"
+  },
+  "positionVertical": {
+    "body": [
+      "positionVertical(${1:obj}, '${2:top_lock}', '${3:top_size}', '${4:height_lock}', '${5:height_size}', '${6:bottom_lock}', '${7:bottom_size}')",
+      ""
+    ],
+    "description": "positionVertical",
+    "prefix": "positionVertical"
+  },
+  "print": {
+    "body": ["print('${1:str}')", ""],
+    "description": "print",
+    "prefix": "print"
+  },
+  "quit": { "body": ["quit()", ""], "description": "quit", "prefix": "quit" },
+  "raiseEvent": {
+    "body": ["raiseEvent('${1:component}', '${2:eventid}', '${3:mydata}')", ""],
+    "description": "raiseEvent",
+    "prefix": "raiseEvent"
+  },
+  "readTextFile": {
+    "body": ["readTextFile('${1:filename}')", ""],
+    "description": "readTextFile",
+    "prefix": "readTextFile"
+  },
+  "refreshComponent": {
+    "body": ["refreshComponent(${1:objcomp})", ""],
+    "description": "refreshComponent",
+    "prefix": "refreshComponent"
+  },
+  "refreshFeed": {
+    "body": ["refreshFeed('${1:title}')", ""],
+    "description": "refreshFeed",
+    "prefix": "refreshFeed"
+  },
+  "register": {
+    "body": ["register('${1:name}', '${2:title}', '${3:params}')", ""],
+    "description": "register",
+    "prefix": "register"
+  },
+  "registerAction": {
+    "prefix": "registerAction",
+    "body": [
+      "registerAction('${1:${TM_FILENAME_BASE}_Callback}', '', '${2:${TM_FILENAME_BASE}_Title}', '');",
+      "function ${1:${TM_FILENAME_BASE}_Callback}() {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Create and register a new Action."
+  },
+  "registerComponent": {
+    "body": [
+      "registerComponent('${1:${TM_FILENAME_BASE}}', '${2:icon}', '${3:${TM_FILENAME_BASE}_component}', '${4:description}', '${5:${TM_FILENAME_BASE}_init}', '${6:${TM_FILENAME_BASE}_resize}', '${7:${TM_FILENAME_BASE}_refresh}', '${8:property_list}', '${9:event_list}', '${10:help_url}', ${11:x1}, ${12:y1}, ${13:x2}, ${14:y2}, '${15:${TM_FILENAME_BASE}_reset}')",
+      "",
+      "function ${5:${TM_FILENAME_BASE}_init}() {",
+      "\t${0}",
+      "}",
+      "",
+      "function ${6:${TM_FILENAME_BASE}_resize}() {",
+      "  ",
+      "}",
+      "",
+      "function ${7:${TM_FILENAME_BASE}_refresh}() {",
+      "  ",
+      "}",
+      "",
+      "function ${15:${TM_FILENAME_BASE}_reset}() {",
+      "  ",
+      "}",
+      ""
+    ],
+    "description": "registerComponent",
+    "prefix": "registerComponent"
+  },
+  "registerEventHandler": {
+    "body": ["registerEventHandler('${1:event}', '${2:name}')", ""],
+    "description": "registerEventHandler",
+    "prefix": "registerEventHandler"
+  },
+  "registerFeed": {
+    "body": ["registerFeed('${1:callback}', '${2:title}', '${3:params}')", ""],
+    "description": "registerFeed",
+    "prefix": "registerFeed"
+  },
+  "removeGlassShelfItem": {
+    "body": ["removeGlassShelfItem('${1:glass_shelf}', '${2:index}')", ""],
+    "description": "removeGlassShelfItem",
+    "prefix": "removeGlassShelfItem"
+  },
+  "removeMapMarker": {
+    "body": ["removeMapMarker(${1:map_view}, '${2:name}')", ""],
+    "description": "removeMapMarker",
+    "prefix": "removeMapMarker"
+  },
+  "removeMapRoute": {
+    "body": ["removeMapRoute(${1:map_view})", ""],
+    "description": "removeMapRoute",
+    "prefix": "removeMapRoute"
+  },
+  "renameFile": {
+    "body": [
+      "renameFile('${1:local_filepath_in}', '${2:temp_filename_out}')",
+      ""
+    ],
+    "description": "renameFile",
+    "prefix": "renameFile"
+  },
+  "resetScrollPanel": {
+    "body": ["resetScrollPanel('${1:scroll_panel}')", ""],
+    "description": "resetScrollPanel",
+    "prefix": "resetScrollPanel"
+  },
+  "saveAsImage": {
+    "body": [
+      "saveAsImage(${1:obj}, '${2:width}', '${3:filename}', '${4:quality}')",
+      ""
+    ],
+    "description": "saveAsImage",
+    "prefix": "saveAsImage"
+  },
+  "scanWifi": {
+    "body": ["scanWifi('${1:on_complete_callback}')", ""],
+    "description": "scanWifi",
+    "prefix": "scanWifi"
+  },
+  "sendForm": {
+    "body": [
+      "sendForm('${1:form}', '${2:success_function}', '${3:error_function}')",
+      ""
+    ],
+    "description": "sendForm",
+    "prefix": "sendForm"
+  },
+  "sendFormData": {
+    "body": [
+      "sendFormData('${1:form}', '${2:json_str}', '${3:success_function}', '${4:error_function}')",
+      ""
+    ],
+    "description": "sendFormData",
+    "prefix": "sendFormData"
+  },
+  "serialClose": {
+    "body": ["serialClose()", ""],
+    "description": "serialClose",
+    "prefix": "serialClose"
+  },
+  "serialEnumeratePorts": {
+    "body": ["serialEnumeratePorts()", ""],
+    "description": "serialEnumeratePorts",
+    "prefix": "serialEnumeratePorts"
+  },
+  "serialOpen": {
+    "body": [
+      "serialOpen('${1:port_name}', '${2:baud_rate}', '${3:flow_control}', '${4:parity}', '${5:stop_bits}', '${6:buffer_ms}', '${7:success_function}', '${8:error_function}', '${9:open_function}', '${10:close_function}')",
+      ""
+    ],
+    "description": "serialOpen",
+    "prefix": "serialOpen"
+  },
+  "serialWrite": {
+    "body": ["serialWrite('${1:data}')", ""],
+    "description": "serialWrite",
+    "prefix": "serialWrite"
+  },
+  "setComboAutocompleteReturnMode": {
+    "body": [
+      "setComboAutocompleteReturnMode('${1:return_selects_first_item}')",
+      ""
+    ],
+    "description": "setComboAutocompleteReturnMode",
+    "prefix": "setComboAutocompleteReturnMode"
+  },
+  "setCookie": {
+    "body": ["setCookie('${1:key}', '${2:value}')", ""],
+    "description": "setCookie",
+    "prefix": "setCookie"
+  },
+  "setCustomFeed": {
+    "body": ["setCustomFeed(${1:obj}, '${2:value}')", ""],
+    "description": "setCustomFeed",
+    "prefix": "setCustomFeed"
+  },
+  "setData": {
+    "body": ["setData(${1:obj}, '${2:key}', '${3:value}')", ""],
+    "description": "setData",
+    "prefix": "setData"
+  },
+  "setDataBulk": {
+    "body": ["setDataBulk(${1:obj}, '${2:json_str}')", ""],
+    "description": "setDataBulk",
+    "prefix": "setDataBulk"
+  },
+  "setEditableProperty": {
+    "body": ["setEditableProperty(${1:obj}, '${2:prop}', '${3:value}')", ""],
+    "description": "setEditableProperty",
+    "prefix": "setEditableProperty"
+  },
+  "setFPSHigh": {
+    "body": ["setFPSHigh('${1:ms}')", ""],
+    "description": "setFPSHigh",
+    "prefix": "setFPSHigh"
+  },
+  "setFocus": {
+    "body": ["setFocus(${1:obj})", ""],
+    "description": "setFocus",
+    "prefix": "setFocus"
+  },
+  "setForeground": {
+    "body": ["setForeground('${1:page_name}', '${2:foreground_name}')", ""],
+    "description": "setForeground",
+    "prefix": "setForeground"
+  },
+  "setGlobal": {
+    "body": ["setGlobal('${1:property}', '${2:value}')", ""],
+    "description": "setGlobal",
+    "prefix": "setGlobal"
+  },
+  "setGlobalVar": {
+    "body": ["setGlobalVar('${1:key}', '${2:value}')", ""],
+    "description": "setGlobalVar",
+    "prefix": "setGlobalVar"
+  },
+  "setProperty": {
+    "body": ["setProperty(${1:obj}, '${2:property}', '${3:value}')", ""],
+    "description": "setProperty",
+    "prefix": "setProperty"
+  },
+  "setPropertyBulk": {
+    "body": ["setPropertyBulk(${1:obj}, '${2:properties}')", ""],
+    "description": "setPropertyBulk",
+    "prefix": "setPropertyBulk"
+  },
+  "setPropertyIn": {
+    "body": [
+      "setPropertyIn(${1:obj}, '${2:property}', '${3:value}', '${4:ms}')",
+      ""
+    ],
+    "description": "setPropertyIn",
+    "prefix": "setPropertyIn"
+  },
+  "setPropertyInTween": {
+    "body": [
+      "setPropertyInTween(${1:obj}, '${2:property}', '${3:value}', '${4:ms}', '${5:tween}')",
+      ""
+    ],
+    "description": "setPropertyInTween",
+    "prefix": "setPropertyInTween"
+  },
+  "setState": {
+    "body": ["setState(${1:obj}, '${2:states}')", ""],
+    "description": "setState",
+    "prefix": "setState"
+  },
+  "setTextStyle": {
+    "body": ["setTextStyle(${1:obj}, '${2:style}')", ""],
+    "description": "setTextStyle",
+    "prefix": "setTextStyle"
+  },
+  "shellExecute": {
+    "body": ["shellExecute('${1:path}', '${2:params}', '${3:minimized}')", ""],
+    "description": "shellExecute",
+    "prefix": "shellExecute"
+  },
+  "showCombo": {
+    "body": ["showCombo('${1:callback}', '${2:options}')", ""],
+    "description": "showCombo",
+    "prefix": "showCombo"
+  },
+  "showComboAutocomplete": {
+    "body": [
+      "showComboAutocomplete('${1:callback}', '${2:options}', '${3:string_in}', '${4:heading_in}')",
+      ""
+    ],
+    "description": "showComboAutocomplete",
+    "prefix": "showComboAutocomplete"
+  },
+  "showComboAutocompleteCallback": {
+    "body": [
+      "showComboAutocompleteCallback('${1:select_callback}', '${2:typed_callback}', '${3:string_in}', '${4:heading_in}', '${5:entry_type}')",
+      ""
+    ],
+    "description": "showComboAutocompleteCallback",
+    "prefix": "showComboAutocompleteCallback"
+  },
+  "showDialog": {
+    "body": ["showDialog('${1:dialog_name}')", ""],
+    "description": "showDialog",
+    "prefix": "showDialog"
+  },
+  "showMyLocation": {
+    "body": ["showMyLocation(${1:map_view}, '${2:zoom_level}')", ""],
+    "description": "showMyLocation",
+    "prefix": "showMyLocation"
+  },
+  "showNativeOverlays": {
+    "body": ["showNativeOverlays()", ""],
+    "description": "showNativeOverlays",
+    "prefix": "showNativeOverlays"
+  },
+  "showPopUp": {
+    "body": ["showPopUp('${1:msg}', '${2:ok_text}', '${3:cancel_text}')", ""],
+    "description": "showPopUp",
+    "prefix": "showPopUp"
+  },
+  "showPopup": {
+    "body": ["showPopup('${1:msg}', '${2:ok_text}', '${3:cancel_text}')", ""],
+    "description": "showPopup",
+    "prefix": "showPopup"
+  },
+  "showSpinner": {
+    "body": ["showSpinner()", ""],
+    "description": "showSpinner",
+    "prefix": "showSpinner"
+  },
+  "stopDeviceDiscovery": {
+    "body": ["stopDeviceDiscovery()", ""],
+    "description": "stopDeviceDiscovery",
+    "prefix": "stopDeviceDiscovery"
+  },
+  "stopGps": {
+    "body": ["stopGps()", ""],
+    "description": "stopGps",
+    "prefix": "stopGps"
+  },
+  "subscribeForBluetoothCharacteristicChange": {
+    "body": [
+      "subscribeForBluetoothCharacteristicChange('${1:serviceId}', '${2:characteristicId}', '${3:callbackMethod}', '${4:subscribes}')",
+      ""
+    ],
+    "description": "subscribeForBluetoothCharacteristicChange",
+    "prefix": "subscribeForBluetoothCharacteristicChange"
+  },
+  "subscribeForBluetoothDeviceConnected": {
+    "body": [
+      "subscribeForBluetoothDeviceConnected('${1:callbackMethod}', '${2:subscribes}')",
+      ""
+    ],
+    "description": "subscribeForBluetoothDeviceConnected",
+    "prefix": "subscribeForBluetoothDeviceConnected"
+  },
+  "subscribeForBluetoothDeviceDisconnected": {
+    "body": [
+      "subscribeForBluetoothDeviceDisconnected('${1:callbackMethod}', '${2:subscribes}')",
+      ""
+    ],
+    "description": "subscribeForBluetoothDeviceDisconnected",
+    "prefix": "subscribeForBluetoothDeviceDisconnected"
+  },
+  "thumbnailImage": {
+    "body": [
+      "thumbnailImage('${1:local_filepath_in}', '${2:temp_filename_out}', '${3:quality_ratio}', '${4:align_x}', '${5:align_y}', '${6:des_width}', '${7:des_height}')",
+      ""
+    ],
+    "description": "thumbnailImage",
+    "prefix": "thumbnailImage"
+  },
+  "toggleDialog": {
+    "body": ["toggleDialog('${1:dialog_name}')", ""],
+    "description": "toggleDialog",
+    "prefix": "toggleDialog"
+  },
+  "unpairDevice": {
+    "body": [
+      "unpairDevice('${1:deviceName}', '${2:unpairedJsCallback}', '${3:unpairedErrorJsCallback}')",
+      ""
+    ],
+    "description": "unpairDevice",
+    "prefix": "unpairDevice"
+  },
+  "updateComboAutocomplete": {
+    "body": ["updateComboAutocomplete('${1:options}')", ""],
+    "description": "updateComboAutocomplete",
+    "prefix": "updateComboAutocomplete"
+  },
+  "uploadFile": {
+    "body": [
+      "uploadFile('${1:local_filepath}', '${2:server_path}', '${3:success_function}', '${4:error_function}')",
+      ""
+    ],
+    "description": "uploadFile",
+    "prefix": "uploadFile"
+  },
+  "urlDecode": {
+    "body": ["urlDecode('${1:s}')", ""],
+    "description": "urlDecode",
+    "prefix": "urlDecode"
+  },
+  "urlEncode": {
+    "body": ["urlEncode('${1:s}')", ""],
+    "description": "urlEncode",
+    "prefix": "urlEncode"
+  },
+  "writeTextFile": {
+    "body": ["writeTextFile('${1:mydata}', '${2:filename}')", ""],
+    "description": "writeTextFile",
+    "prefix": "writeTextFile"
+  },
+  "writeToSocket": {
+    "body": [
+      "writeToSocket('${1:deviceName}', '${2:data}', '${3:onWriteCallback}', '${4:onWriteErrorCallback}')",
+      ""
+    ],
+    "description": "writeToSocket",
+    "prefix": "writeToSocket"
+  },
+  "wsDisconnect": {
+    "body": ["wsDisconnect('${1:ref}')", ""],
+    "description": "wsDisconnect",
+    "prefix": "wsDisconnect"
+  },
+  "wsNew": {
+    "body": ["wsNew()", ""],
+    "description": "wsNew",
+    "prefix": "wsNew"
+  },
+  "wsOpen": {
+    "body": ["wsOpen('${1:ref}', '${2:url}', '${3:protocol}')", ""],
+    "description": "wsOpen",
+    "prefix": "wsOpen"
+  },
+  "wsSendBinary": {
+    "body": ["wsSendBinary('${1:ref}', '${2:message}')", ""],
+    "description": "wsSendBinary",
+    "prefix": "wsSendBinary"
+  },
+  "wsSendText": {
+    "body": ["wsSendText('${1:ref}', '${2:message}')", ""],
+    "description": "wsSendText",
+    "prefix": "wsSendText"
+  },
+  "wsSetCallbacks": {
+    "body": [
+      "wsSetCallbacks('${1:ref}', '${2:on_error}', '${3:on_connected}', '${4:on_connect_failed}', '${5:on_disconnected}', '${6:on_disconnect_failed}', '${7:on_send_failed}', '${8:on_text_received}', '${9:on_binary_received}')",
+      ""
+    ],
+    "description": "wsSetCallbacks",
+    "prefix": "wsSetCallbacks"
+  },
+  "xmlDecode": {
+    "body": ["xmlDecode('${1:s}')", ""],
+    "description": "xmlDecode",
+    "prefix": "xmlDecode"
+  },
+  "xmlEncode": {
+    "body": ["xmlEncode('${1:s}')", ""],
+    "description": "xmlEncode",
+    "prefix": "xmlEncode"
+  }
+}

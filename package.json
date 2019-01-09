@@ -1,0 +1,32 @@
+{
+  "name": "umajin-js-snippets",
+  "displayName": "Umajin snippets",
+  "description": "Umajin Snippets for VS Code.",
+  "version": "0.0.1",
+  "publisher": "umajin",
+  "icon": "images/logo.png",
+  "keywords": [
+    "snippets",
+    "umajin",
+    "javascript"
+  ],
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Umajin/vscode-umajin-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
